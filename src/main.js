@@ -1,3 +1,7 @@
 'use strict';
 
-const chatroom = require('./models/chatroom');
+require('./lib/chatroom');
+require('/lib/server');
+
+
+
