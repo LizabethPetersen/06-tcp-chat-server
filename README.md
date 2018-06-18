@@ -1,5 +1,15 @@
-![cf](https://i.imgur.com/7v5ASc8.png) Lab 06: TCP Chat Server
-======
+#Lab 06: TCP Chat Server
+This app allows users to join and participate in a server-side chatroom. Within the chatroom, users can change their user id to a nickname of their choosing, send a message to all users, or send a message to specific users or to direct message (dm) the chatroom host.
+
+## Documentation
+
+##### Initial Set-up – For MacOS Users
+- In your terminal, brew install netcat. netcat is a "computer networking utility" that allows reading from and writing to network connections using TCP or UDP. This app uses TCP to interact with the server.
+- Create a repository that will contain all directories and modules necessary to building the chatroom app.
+- Create a working branch; never work directly in the master branch
+- Add scaffolding:
+  - npm init -y (initializes the repo with npm)
+  - npm i (installs a package.json which will contain instructions for our dependencies and any "rules" for using these)
 
 ## Submission Instructions
 * Work in a fork of this repository
