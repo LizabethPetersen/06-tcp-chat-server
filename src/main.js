@@ -1,7 +1,7 @@
 'use strict';
 
-// require('./lib/chatroom');
-require('./lib/server');
+import './lib/chatroom';
+import './lib/events';
 
 
 
