@@ -1,7 +1,7 @@
 'use strict';
 
-require('./lib/chatroom');
-require('/lib/server');
+// require('./lib/chatroom');
+require('./lib/server');
 
 
 
